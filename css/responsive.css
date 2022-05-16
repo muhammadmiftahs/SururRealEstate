@@ -1,0 +1,182 @@
+@media screen and (max-width : 992px){
+    .img-hero{
+        width: 70%;
+        height: auto;
+    }
+
+    #navbarNav .button-primary{
+        position: absolute;
+        top: 120px;
+        right: 30%;
+    }
+
+    #navbarNav .button-secondary{
+        position: absolute;
+        top: 120px;
+        right: 10%;
+    }
+
+    .input-cari .button-secondary{
+        display: block;
+        width: 120px;
+        font-size: 14px;
+        border-radius: 0;
+    }
+    .input-cari .button-secondary img{
+        width: 20%;
+    }
+
+    .input-cari .button-primary{
+        display: block;
+        width: 100%;
+        font-size: 20px;
+        border-radius: 0 0 10px 10px !important;
+    }
+
+    .input-cari .form-control{
+        height: 70px !important;
+        font-size: 12px;
+        border-radius: 0 10px 0 0 !important;
+    }
+
+    .card-service {
+        margin: 15px 0;
+        padding: 20px;
+    }
+
+    .card-service p{
+        font-size: 14px;
+    }
+
+    .button-fitur{
+        width: 50%;
+    }
+
+    #contact h3{
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .card-contact{
+        width: 100%;
+        height: auto;
+        margin-top: 32px;
+    }
+    
+    .card-contact h2{
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .kontak .linkcontact a{
+        margin-left: 10px;
+    }
+
+    .text-logo {
+        margin-bottom: 20px;
+    }
+
+    .nav-footer{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width : 576px){
+    .hero-tagline h1{
+        line-height: 52px;
+    }
+
+    .hero-tagline p{
+        font-size: 14px;
+        margin-bottom: 40px;
+        line-height: 20px;
+        width: 70%;
+    }
+
+    .img-hero{
+        width: 70%;
+        height: auto;
+    }
+
+    .button-lg-primary{
+        width: 150px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    .sub-tittle{
+        font-size: 16px;
+    }
+
+    .card-service {
+        margin: 15px 0;
+    }
+
+    .card-service p{
+        font-size: 14px;
+    }
+
+    #search h2{
+        font-size: 35px;
+        line-height: 52px;
+    }
+
+    #search p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .input-cari .button-secondary{
+        width: 50%;
+        height: 50px;
+        border-radius: 0;
+        font-size: 14px;
+        border-radius: 0 !important;
+    }
+
+    .input-cari .button-secondary img{
+        width: 18%;
+    }
+
+    .input-cari .button-primary{
+        height: 50px;
+        width: 30%;
+        font-size: 20px;
+        border-radius: 0 0 10px 0 !important;
+
+    }
+
+    .input-cari .form-control{
+        height: 50px !important;
+        font-size: 12px;
+        border-radius: 0 0 0 10px !important;
+    }
+
+    .nav-tabs .nav-link{
+        height: 40px;
+        font-size: 14px;
+        border-radius: 0;
+    }
+
+    .text-logo {
+        margin-bottom: 20px;
+    }
+
+    .nav-footer{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width : 350px){
+
+
+}

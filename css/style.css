@@ -1,0 +1,588 @@
+:root {
+    /* --pr-color :#00985B;
+    --hover-color : #04bd73; */
+    --pr-color :#386474;
+    --hover-color : #4ca1af;
+    
+}
+
+*{
+    z-index: 2;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #DCFDF0; */
+    background-color: #d5eaee;
+}
+
+
+
+/* Navbar */
+.navbar{
+    z-index: 3;
+}
+
+/* Navbar Color */
+.nav-color{
+    background-color: var(--pr-color);
+    transition: all ease-in .3s;
+}
+
+.bg-transparent{
+    transition: all ease-in .2s;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.nav-link{
+    font-size: 20px;
+}
+
+.nav-link.active{
+    font-weight: 700;
+}
+
+.button-secondary{
+    width: 133px;
+    height: 40px;
+    background-color: white;
+    border-radius: 12px;
+    color: var(--pr-color);
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all ease-in .2s;
+}
+
+.button-secondary:hover{
+    background-color: var(--hover-color);
+    color: #fff;
+}
+
+.button-primary{
+    width: 133px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+/* End Navbar */
+
+
+
+/* Hero */
+#hero{
+    /* background: linear-gradient(160deg, #000, var(--pr-color)); */
+    background: linear-gradient(90deg, #2c3e50 0%, #4ca1af 100%);
+    height: 100vh;
+    width: 100%;
+}
+
+.img-hero{
+    height: 90%;
+    z-index: 1;
+}
+
+.hero-tagline h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.hero-tagline p{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    line-height: 30px;
+    width: 85%;
+}
+
+.button-lg-primary{
+    width: 250px;
+    height: 70px;
+    background-color: #fff;
+    color: var(--pr-color);
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-radius: 12px;
+    transition: all ease-in .2s;
+}
+
+.button-lg-primary:hover{
+    background-color: var(--hover-color);
+    color: #fff;
+}
+/* End Hero */
+
+
+
+/* Service */
+#service{
+    padding: 100px 0;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 500;
+    color: var(--pr-color);
+}
+
+.sub-tittle{
+    font-size: 18px;
+    color: #000;
+}
+
+.card-service{
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.06);
+    transition: all .2s ease-in;
+}
+
+.circle-icon{
+    width: 70px;
+    height: 70px;
+    background-color: var(--pr-color);
+    border-radius: 50%;
+    transition: all .1s ease-in;
+}
+
+.card-service h3{
+    color: var(--pr-color);
+    font-size: 24px;
+    transition: all .2s ease-in;
+}
+
+.card-service p{
+    color: #000;
+    font-size: 14px;
+    transition: all .3s ease-in;
+}
+
+
+/* Service Card Hover */
+.card-service:hover{
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+    /* background: linear-gradient(160deg, var(--pr-color), #000); */
+    background: linear-gradient(160deg, var(--pr-color), #4ca1af);
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.06);
+    transition: all .3s ease-in;
+    cursor: pointer;
+}
+
+.card-service:hover .circle-icon{
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: all .3s ease-in;
+}
+
+.card-service:hover h3{
+    color: #fff;
+    font-size: 24px;
+    transition: all .3s ease-in;
+}
+
+.card-service:hover p{
+    color: #fff;
+    font-size: 14px;
+    transition: all .3s ease-in;
+}
+/* End Service Card Hover */
+/* End Service */
+
+
+
+/* Seacrh Section */
+#search{
+    background-image: url(img/search-background.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#search h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #fff;
+}
+
+#search p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+}
+
+.input-cari{
+    height: 70px;
+}
+
+.input-cari:focus{
+    border: none;
+}
+
+.input-cari .button-secondary{
+    width: 200px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: var(--pr-color);
+    border-radius: 0 0 0 10px;
+    font-size: 18px;
+    border: none;
+    font-weight: 500;
+
+}
+
+.input-cari .button-primary{
+    height: 70px;
+    background-color: var(--pr-color);
+    color: #fff;
+    border: none;
+    font-size: 26px;
+    font-weight: 500;
+    border-radius: 0 10px 10px 0;
+}
+
+.input-cari .button-primary:hover{
+    background-color: var(--hover-color);
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs .nav-link {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0;
+    color: rgb(63, 62, 62);
+    border: none;
+}
+
+.input-cari .form-control {
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 70px !important;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: var(--pr-color);
+    border-radius: 0 10px 0 0;
+    font-weight: 500;
+}
+/* End Seacrh Section */
+
+
+
+/* Recomendation Section */
+.card{
+    width: 95%;
+    height: 450px;
+    border: none;
+}
+
+.card-body h4{
+    color: #000;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: .8rem;
+}
+.card-body p{
+    color: #222121;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card-fasilitas {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 10px;
+    background-color: #fff;
+}
+
+.card-fasilitas span{
+    font-weight: 500;
+    margin-top: 18px;
+    color: #000;
+}
+
+.card-fasilitas p{
+    font-size: 12px;
+    color: #000;
+}
+
+.card-image{
+    height: 270px;
+}
+
+.card-image img{
+    width: 100%;
+    height: 95%;
+}
+
+/* Recomendation Hover */
+.card:hover{
+    background: linear-gradient(170deg, var(--pr-color), var(--hover-color), var(--hover-color), #000);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    transition: all ease-in-out .2s;
+}
+
+.card:hover .card-body h4{
+    color: #fff;
+    transition: all ease-in-out .2s;
+}
+
+.card:hover .card-body p{
+    color: #fff;
+    transition: all ease-in-out .2s;
+}
+/* End Recomendation Hover */
+/* End Recomendation Section */
+
+
+
+/* Fiture Section */
+.button-fitur{
+    width: 238px;
+    height: 63px;
+    background-color: var(--pr-color);
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 12px;
+    transition: all ease-in .2s;
+}
+
+.button-fitur:hover{
+    background-color: #fff;
+    color: var(--hover-color);
+    font-weight: 800;
+}
+
+#fitur h2{
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.card-fitur h5{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.card-fitur span{
+    color: #fff;
+    font-size: 14px;
+}
+
+.card-fitur h6{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card-fitur button{
+    background-color: var(--pr-color);
+    color: #fff;
+    border: none;
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-fitur img{
+    width: 100%;
+    height: 100%;
+}
+
+.card-fitur .overlay{
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: all ease-in-out 0.3s;
+}
+
+.card-fitur .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+
+}
+
+.button-arrow-left {
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: var(--pr-color);
+}
+
+.button-arrow-right {
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: var(--pr-color);
+}
+/* End Fiture */
+
+
+/* Contact */
+#contact{
+    background-image: url(img/bg-contact.jpg);
+    margin-top: 158px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+#contact .overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#contact .container {
+    padding: 148px 0 148px 0;
+}
+
+#contact h3{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+    width: 500px;
+}
+
+.kontak h6{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin: 20px 0 14px 0;
+}
+
+.kontak .linkcontact a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.kontak .linkmuhammadmiftahs{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
+.card-contact{
+    width: 100%;
+    height: 445px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 52px 48px;
+}
+
+.card-contact h2{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--pr-color);
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+
+.form-control{
+    height: 75px !important;
+    background: rgba(97, 96, 96, 0.72);
+}
+
+.form-floating label{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #bbb8b8;
+}
+
+.button-contact{
+    width: 100%;
+    height: 75px;
+    background: var(--pr-color);
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+    transition: all ease-in-out .2s;
+}
+
+.button-contact:hover{
+    background-color: var(--hover-color);
+}
+
+/* End Contact */
+
+
+
+/* Footer */
+footer{
+    width: 100%;
+    height: 300px;
+    background: #000000;
+
+}
+
+footer a{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FEF5F5;
+    text-decoration: none;
+    transition: all ease-in-out .2s;
+}
+
+footer a:hover{
+    color: var(--hover-color);
+}
+
+footer .text-logo a{
+    color: #fff;
+}
+
+.copyright{
+    bottom: 1%;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+/* End Footer */
