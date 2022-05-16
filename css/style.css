@@ -214,7 +214,7 @@ h2{
 
 /* Seacrh Section */
 #search{
-    background-image: url(img/search-background.jpg);
+    /* background-image: url(img/search-background.jpg); */
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -456,7 +456,7 @@ h2{
 
 /* Contact */
 #contact{
-    background-image: url(img/bg-contact.jpg);
+    /* background-image: url(img/bg-contact.jpg); */
     margin-top: 158px;
     background-repeat: no-repeat;
     background-size: cover;
